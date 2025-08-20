@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Docker
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Byte-compiled / optimized / DLL files
+*.so
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local data
+.env
