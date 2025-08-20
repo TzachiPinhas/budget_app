@@ -35,4 +35,4 @@ jobs:
           tags: |
             tzachipinhas/budget_app:latest
             tzachipinhas/budget_app:${{ github.sha }}
-            ${{ github.ref_type == 'tag' && github.ref_name || '' }}
+            ${{ github.ref_type == 'tag' && format('tzachipinhas/budget_app:%s', github.ref_name) || '' }}
